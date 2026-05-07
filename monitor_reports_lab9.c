@@ -41,7 +41,6 @@ int main() {
     }
     close(fd);
     struct sigaction sa;
-    sigaction(SIGUSR1, &sa, NULL);
     sa.sa_handler = handle_signal;
     sigemptyset(&sa.sa_mask);
     sa.sa_flags = 0;
