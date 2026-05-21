@@ -1,0 +1,10 @@
+gcc ./city_manager.c -o city_manager
+gcc ./monitor_reports.c -o monitor_reports
+gcc ./city_hub.c -o city_hub
+gcc ./scorer.c -o scorer
+
+
+./monitor_reports
+./city_hub
+
+
